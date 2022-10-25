@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inknut+Antiqua:wght@300&display=swap');
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(50, 167, 145);
+  padding: 20px;
+  height: 100px;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  font-family: Inknut Antiqua, serif;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 1%;
+  background-image: url('./images/background3.png');
+  background-size: cover;
+  height: 100vh;
+  opacity: 0.9;
+  background-position: center;
+}
+
+fieldset {
+  display: flex;
+  width: 50%;
+  margin-left: 22%;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main form {
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.4);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.146);
+  font-size: 18px;
+  font-family: Inknut Antiqua, serif;
+}
+
+input , textarea {
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  font-size: 14px;
+  border-color: rgba(224, 221, 221);
+}
+
+select {
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  font-size: 18px;
+}
+
+footer {
+  position: fixed;
+  color: white;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  padding: 0;
+  background-color: rgb(50, 167, 145);
+  height: 50px;
+}
+
+footer p {
+  padding: 10px;
+  margin-bottom: 0;
+}
+
+.trybewarts-login {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 10%;
+}
+
+.form-check-input:checked {
+  background-color: grey;
+  border: grey;
+}
+
+.form {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  width: 675px;
+  border-radius: 5px;
+  margin: 50px 40px;
+  padding: 20px;
+}
+
+.form-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.form-1 div {
+  margin: 5px;
+}
+
+.form-1 div input {
+  width: 100%;
+}
+
+.houses-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-group {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.trybewarts-header-logo {
+  display: flex;
+  width: 100px;
+  padding: 5px;
+}
+
+.form-2 {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.form-2 div {
+  margin-top: 5px;
+  padding-left: 10px;
+}
+
+/* Ramon G B S Requisito 13 */
+.div-label {
+  margin-top: 20px;
+}
+
+.form-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 675px;
+  padding: 10px;
+}
+
+.form-3 div {
+  padding-left: 10px;
+}
+
+.form-3 div label {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.form-4 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 2%;
+  position: relative;
+}
+
+#enter-btn {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: Inknut Antiqua, serif;
+}
+
+#form-data {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 10%;
+}
+
+#input-name {
+  margin-bottom: 10px;
+}
+
+#evaluation-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#evaluation {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-left: 10px;
+}
+
+#evaluation label {
+  margin-left: 3px;
+  margin-right: 5px;
+}
+
+#label-rate {
+  margin-top: 20px;
+}
+
+#agreement {
+  margin-left: 10px;
+}
+
+#counter {
+  position: absolute;
+  left: 580px;
+  top: 235px;
+}
+
+/* Pedro E. Requesito 6 */
+#evaluation-form {
+  flex-direction: column;
+}
+
+/* Pedro E. Requesito 7 */
+#trybewarts-forms-logo {
+  height: 500px;
+  animation: mover 2s infinite alternate;
+}
+
+#submit-btn {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: Inknut Antiqua, serif;
+}
+
+@keyframes mover {
+
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes mover {
+
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-20px);
+  }
+}
